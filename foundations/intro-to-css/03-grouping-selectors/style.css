@@ -1,0 +1,12 @@
+.left-button.right-button{
+    font-size: 128px;
+    font: Helvetica, Times , sans-serif;
+}
+
+.left-button{
+    background-color: black;
+    color:white;
+}
+.right-button{
+    background-color: yellow;
+}
