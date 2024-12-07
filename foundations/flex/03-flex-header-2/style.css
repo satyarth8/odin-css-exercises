@@ -1,20 +1,28 @@
-/* this is some magical font-importing.  
+/* this is some magical font-importing.
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
+*{
+  border: 1px solid black;
+}
 body {
+  padding: 0px;
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
 }
 
 .header {
+  gap:10px;
+  display: flex;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  justify-content: space-between;
 }
 
 .profile-image {
+  display: flex;
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
@@ -23,13 +31,15 @@ body {
 }
 
 .logo {
-  color: rebeccapurple;
+  display: flex;
+  color: rgb(7, 4, 10);
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
 }
 
 button {
+  display: flex;
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
@@ -44,5 +54,22 @@ a {
 }
 
 ul {
+  padding: 0px;
+  display: flex;
+  gap:10px;
   list-style-type: none;
+}
+
+
+.links{
+  display: flex;
+}
+
+.side{
+  display: flex;
+  justify-self: flex-end;
+}
+
+.left{
+  display: flex;
 }

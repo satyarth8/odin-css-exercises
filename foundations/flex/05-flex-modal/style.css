@@ -2,7 +2,12 @@
 
 html, body {
   height: 100%;
+  
 }
+*{
+
+}
+
 
 body {
   font-family: Roboto, sans-serif;
@@ -16,9 +21,11 @@ body {
 }
 
 .modal {
+  display: flex;
   background: white;
   width: 480px;
   border-radius: 10px;
+  padding: 12px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
@@ -46,24 +53,41 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #eee;
+  border: 1px solid #f7f7f7;
   padding: 0;
 }
 
 button {
+
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
 }
 
 button.continue {
+  margin-top: 10px;
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
 }
 
 button.cancel {
+  margin-top:10px;
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+
+.left{
+  padding-right:5px;
+}
+
+.heading{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header{
+  font-weight: bold;
 }
